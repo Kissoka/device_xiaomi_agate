@@ -27,6 +27,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DEVICE_PATH)-kernel/vendor-modules/*.ko)
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_agate
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_agate
+
 # Inherit from common trees
 include device/xiaomi/mt6893-common/BoardConfigCommon.mk
 

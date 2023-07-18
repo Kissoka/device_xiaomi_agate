@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "init_xiaomi_agate",
+    srcs: ["init_xiaomi_agate.cpp"],
+    whole_static_libs: ["//device/xiaomi/mt6893-common:libinit_xiaomi_mt6893"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
