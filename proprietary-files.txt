@@ -1962,10 +1962,6 @@ system_ext/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.vpu@1.0.so
-system_ext/priv-app/Settings/lib/arm64/libjpgt.so
-system_ext/priv-app/Settings/lib/arm64/liblept.so
-system_ext/priv-app/Settings/lib/arm64/libpngt.so
-system_ext/priv-app/Settings/lib/arm64/libtess.so
 -vendor/app/EmCamera/EmCamera.apk
 -vendor/app/IconShapeOverlay/IconShapeOverlay.apk
 -vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
